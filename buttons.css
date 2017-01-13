@@ -60,7 +60,7 @@ div {
 	color: white;
 	font-size: 12px;
 	border: 2px solid white;
-	/*border-radius: 8px;*/
+	border-radius: 8px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -97,11 +97,36 @@ div {
 }
 
 .style3:active {
-	color: #555555;
+	color: #777;
 }
 
 .style3:focus {
-	outline: 2px solid lightblue;
+	outline: 3px solid lightblue;
 }
 
 /***********************************************/
+
+.div4 {
+	background: url("http://bgfons.com/upload/stucco_texture2035.jpg");
+	background-size: 100% 100%;
+	color: #333333;
+	font-weight: bold;
+}
+
+.style4 {
+	border: 3px outset white;
+	font-weight: bold;
+	color: #333333;
+}
+
+.style4:hover {
+	background-color: lightgrey;
+}
+
+.style4:active {
+	border-style: inset;
+}
+
+.style4:focus {
+	outline: 3px solid #bbb;
+}
