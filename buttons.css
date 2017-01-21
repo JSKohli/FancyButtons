@@ -1,7 +1,3 @@
-button {
-	padding: 10px 20px 10px 20px;
-}
-
 h3 {
 	font-family: Helvetica;
 }
@@ -9,32 +5,96 @@ h3 {
 div {
 	color: white;
 	padding: 10px 10px 10px 10px;
-	margin: 10px;
-	width: 150px;
-	height: 150px;
+	margin: 20px;
+	width: 200px;
+	height: 200px;
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 24px;
 	display: inline-block;
+}
+
+button {
+	padding: 10px 20px 10px 20px;
+	margin-top: 15%;
+	font-family: 'Ubuntu';
+	font-size: 18px;
+}
+
+/***********************************************/
+
+.div0 {
+	background: black;
+	border-radius: 0px 20px 0px 20px;
+	font-size: 20px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr td {
+	border: 1px solid white;
+	padding: 3px;
+}
+
+.style0 {
+	background-color: black;
+	border: 2px solid black	;
+	border-radius: 20px 0px 20px 0px;
+	outline: none;
+	
+	color: white;
+	text-align: center;
+
+	box-shadow: 0 0 20px 1px red;
+}
+
+.style0:hover {
+	background-color: white;
+	color: black;
+	border-color: white;
+	box-shadow: 0 0 10px 2px teal;
+}
+
+.style0:hover table tr td {
+	border: 1px solid black;
+}
+
+.style0:active {
+	background-color: black;
+	color: white;
+}
+
+.style0:active table tr td {
+	border: 1px solid white;
+}
+
+.style0:focus {
+	box-shadow: 0 0 10px 2px teal;
 }
 
 /***********************************************/
 
 .div1 {
 	background: black;
+	border-radius: 0px 20px 0px 20px;
 }
 
 .style1 {
 	background-color: black;
+	
 	color: white;
-	font-size: 12px;
-	border: 2px solid white;
 	text-align: center;
-	font-weight: bold;
+	
+	border: 2px solid black;
+	border-radius: 20px 0px 20px 0px;
+	box-shadow: 0 0 20px 1px red;
 }
 
 .style1:hover {
 	background-color: white;
 	color: black;
+	border-color: white;
 	box-shadow: 0 0 10px 2px teal;
 }
 
@@ -51,18 +111,17 @@ div {
 /***********************************************/
 
 .div2 {
-	background-image: url("background-img.jpeg");
-	background-size: 100%;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/originals/99/ef/5a/99ef5af395f4d13c9c37b3d73ea2bda3.jpg");
+	background-size: 100% 100%;
 }
 
 .style2 {
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.3);
 	color: white;
-	font-size: 12px;
 	border: 2px solid white;
+	font-weight: bold;
 	border-radius: 8px;
 	text-align: center;
-	font-weight: bold;
 }
 
 .style2:hover {
@@ -75,7 +134,7 @@ div {
 
 .style2:focus {
 	outline: none;
-	box-shadow: 0 0 15px 0 black;
+	box-shadow: 0 0 10px 2px white;
 }
 /***********************************************/
 
@@ -83,13 +142,11 @@ div {
 	background-color: white;
 	border: 2px solid black;
 	color: black;
-	font-weight: bold;
 }
 
 .style3 {
 	background-color: white;
 	border: 2px solid black;
-	font-weight: bold;
 }
 
 .style3:hover {
@@ -101,7 +158,7 @@ div {
 }
 
 .style3:focus {
-	outline: 3px solid lightblue;
+	outline: 4px solid lightblue;
 }
 
 /***********************************************/
@@ -110,12 +167,10 @@ div {
 	background: url("http://bgfons.com/upload/stucco_texture2035.jpg");
 	background-size: 100% 100%;
 	color: #333333;
-	font-weight: bold;
 }
 
 .style4 {
 	border: 3px outset white;
-	font-weight: bold;
 	color: #333333;
 }
 
@@ -128,5 +183,5 @@ div {
 }
 
 .style4:focus {
-	outline: 3px solid #bbb;
+	outline: 4px solid #bbb;
 }
