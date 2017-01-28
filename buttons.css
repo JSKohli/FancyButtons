@@ -69,6 +69,7 @@ button {
 	font-weight: bold;
 	border-radius: 8px;
 	text-align: center;
+	text-shadow: 2px 2px 4px black; 
 }
 
 .style2:hover {
@@ -81,7 +82,7 @@ button {
 
 .style2:focus {
 	outline: none;
-	box-shadow: 0 0 10px 2px white;
+	box-shadow: 0 0 5px 2px silver;
 }
 /***********************************************/
 
@@ -131,4 +132,34 @@ button {
 
 .style4:focus {
 	outline: 4px solid #bbb;
+}
+
+/***********************************************/
+
+.div5 {
+	background: url("http://pic.sc.chinaz.com/files/pic/pic7/pic5802.jpg");
+	background-size: 100% 100%;
+	text-shadow: 2px 2px 4px black; ;
+}
+
+.style5 {
+	background: transparent;
+	border-radius: 25px 25px 25px 25px;
+	border: 2px solid white;
+	color: white;
+	box-shadow: 0px 0px 10px 1px black;
+	outline: none;
+}
+
+.style5:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.style5:active {
+	background-color: rgba(255,255,255, 0.3);
+	border: 2px solid white;
+}
+
+.style5:focus {
+	box-shadow: 0px 0px 5px 1px white;
 }
